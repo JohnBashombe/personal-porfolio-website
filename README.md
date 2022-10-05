@@ -1,4 +1,4 @@
-# ✅✅✅ NEXT.JS TEMPLATE WITH TYPESCRIPT ✅✅✅
+# Ntavigwa Bashombe - Portfolio
 
 This is a well documented template for any project with Next and TypeScript
 
@@ -29,3 +29,9 @@ Tailwind CSS is a utility-first CSS framework for rapidly building custom user i
 An official react icons library
 
 #### Developed with ♥♥♥ by Ntavigwa Bashombe
+
+To run the project,
+
+#### First run "yarn install" to install all the dependencies
+
+#### Then "npm run dev" and you are good to go
