@@ -7,23 +7,37 @@ const AboutUs = (): JSX.Element => {
   return (
     <div
       ref={refs[1]}
-      className='flex flex-col-reverse md:flex-row justify-start items-center md:space-x-10 pt-10 md:pt-28 w-full'
+      className='flex flex-col justify-start items-center space-y-10 pt-10 w-full'
     >
       <div className='w-full md:w-1/2 flex flex-col text-white space-y-10 mt-10 md:mt-0'>
-        <p className='uppercase text-4xl font-bold'>About Us</p>
-        <p className='text-base text-gray-400 text-justify'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-          corrupti obcaecati ea provident ad aliquam illo dolorem omnis, iste
-          eligendi odio error alias numquam qui, voluptatem impedit commodi,
-          harum a. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Impedit, nulla sapiente reiciendis ducimus, soluta praesentium
-          voluptates quia quas quam, quod consequuntur voluptatibus.
+        <p className='uppercase text-5xl font-bold text-center'>About Me</p>
+        <p className='text-base text-white text-justify'>
+          I am a Alumni at{' '}
+          <b>Faculty of Science & Technology in Computer Science ( 3 Years )</b>{' '}
+          at International University of East Africa. All of my projects are
+          built with the goal to make software more accessible to people who
+          could not use it before. I am a competitive programmer, always eager
+          to learn more and explore new technologies. <br /> I have{' '}
+          <b>about 4 years of experience</b> in Java, JavaScript, Typescript,
+          Next JS, React PHP, SQL, Firebase, JS, Node JS, MySQL, and quite
+          enough knowledge in Rust, Dart, Solidity, MongoDB and Linux.
         </p>
-        <div className='bg-white text-black font-medium px-10 text-xs py-4 w-fit cursor-pointer'>
-          <p>Contact Us</p>
-        </div>
       </div>
-      <div className='w-full md:w-1/2 bg-gray-200 h-80'></div>
+      <div className='flex flex-col space-y-8 justify-center items-center w-full md:w-1/2 bg-transparent h-full pt-10'>
+        <img
+          className='w-auto h-fit'
+          src='https://ik.imagekit.io/ntavigwa/iuea_Zytey4hKD.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664944658960'
+          alt='IUEA'
+        />
+        <a
+          href='https://iuea.ac.ug/Graduation/sitepad-data/uploads//2022/06/GradLists-2019.pdf'
+          target='_blank'
+          rel='noopener noreferrer'
+          className='text-white font-bold hover:underline hover:text-gray-400 animation classic text-base'
+        >
+          Click here to verify
+        </a>
+      </div>
     </div>
   );
 };

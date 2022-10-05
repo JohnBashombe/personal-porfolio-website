@@ -6,11 +6,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        'brand-1': '#1E1E1E',
-        'brand-2': '#454545',
-        'brand-3': '#AAAAAA',
-        'brand-4': '#8B8B8B',
+      fontFamily: {
+        signika: ['Signika Negative', 'sans-serif'],
       },
     },
   },

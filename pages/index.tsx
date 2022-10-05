@@ -4,7 +4,6 @@ import Work from '../components/Work';
 import { useRecoilValue } from 'recoil';
 import Dream from '../components/Dream';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 import Drawer from '../components/Drawer';
 import TopBar from '../components/TopBar';
 import { DrawerState } from '../lib/atoms';
@@ -23,7 +22,7 @@ import Contact from '../components/Contact';
 const Home: NextPage = (): JSX.Element => {
   const { showDrawer } = useRecoilValue(DrawerState);
   return (
-    <div className='flex flex-col w-full h-full min-h-screen bg-black text-white pb-20'>
+    <div className='flex flex-col w-full h-full min-h-screen bg-gray-900 awesome text-white font-signika'>
       {showDrawer ? (
         <Drawer />
       ) : (
@@ -36,7 +35,6 @@ const Home: NextPage = (): JSX.Element => {
             <Work />
           </div>
           <Contact />
-          <Footer />
         </>
       )}
     </div>

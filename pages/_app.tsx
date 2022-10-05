@@ -6,6 +6,7 @@ import Scaffold from '../components/Scaffold';
 import '../styles/animation.css';
 import '../styles/globals.css';
 import '../styles/shadow.css';
+import '../styles/style.css';
 
 /**
  * @author Ntavigwa Bashombe
