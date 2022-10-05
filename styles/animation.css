@@ -908,6 +908,16 @@
   }
 }
 
+.classic:hover {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+
+.work:hover {
+  -webkit-animation-name: tada;
+  animation-name: tada;
+}
+
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
