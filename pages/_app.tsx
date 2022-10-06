@@ -3,10 +3,9 @@ import { RecoilRoot } from 'recoil';
 import { AppProps } from 'next/app';
 import PageMeta from '../components/PageMeta';
 import Scaffold from '../components/Scaffold';
-import '../styles/animation.css';
-import '../styles/globals.css';
-import '../styles/shadow.css';
 import '../styles/style.css';
+import '../styles/globals.css';
+import '../styles/animation.css';
 
 /**
  * @author Ntavigwa Bashombe

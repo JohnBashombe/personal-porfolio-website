@@ -10,6 +10,8 @@ All notable changes to this project will be documented in this file.
 
 - Feature [Feature/Implementation] - Top Bar - DeskTop View - Ntavigwa Bashombe - September 11, 2022
 
+- Feature [Feature/Implementation] - Website - Design Completed - Ntavigwa Bashombe - October 6, 2022
+
 #### Launch v0.001 - NEXT.JS WITH TYPESCRIPT TEMPLATE
 
 ##### Stats

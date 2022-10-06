@@ -28,13 +28,13 @@ const Dream = (): JSX.Element => {
   return (
     <div
       ref={refs[2]}
-      className='flex flex-col pt-16 md:pt-28 space-y-10 w-full md:w-1/2 mx-auto'
+      className='flex flex-col pt-16 md:pt-28 space-y-5 md:space-y-10 w-full lg:w-2/3 xl:w-1/2 mx-auto'
     >
-      <p className='font-bold pb-8 text-5xl text-white uppercase text-center'>
+      <p className='font-bold pb-8 text-3xl md:text-5xl text-white uppercase text-center'>
         Tools and Technologies
       </p>
       <div className='grid grid-cols-1 w-full gap-10'>
-        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-10 text-7xl text-white text-center w-full'>
+        <div className='grid grid-cols-4 md:grid-cols-4 xl:grid-cols-5 place-items-center gap-10 text-5xl md:text-7xl text-white text-center w-full'>
           <SiTypescript className='animation classic' />
           <SiJavascript className='animation classic' />
           <SiJava className='animation classic' />
@@ -103,7 +103,7 @@ export default Dream;
 
 const Item = ({ title }: { title: string }) => {
   return (
-    <div className='flex space-x-2 justify-start items-center text-base text-gray-400 w-full cursor-pointer'>
+    <div className='flex space-x-2 justify-center md:justify-start items-center text-base text-gray-400 w-full cursor-pointer'>
       <FaDotCircle />
       <p>{title}</p>
     </div>
@@ -117,7 +117,7 @@ type ISkills = {
 
 const Skills = ({ title, data }: ISkills) => {
   return (
-    <div className='flex flex-col space-y-4 w-full'>
+    <div className='flex flex-col justify-center items-center md:justify-start md:items-start space-y-4 w-full'>
       <p className='text-xl text-gray-100 font-bold'>{title}</p>
       <div className='grid grid-cols-1 gap-5 w-full'>
         {data.map((value, index) => (

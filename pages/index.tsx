@@ -9,6 +9,7 @@ import TopBar from '../components/TopBar';
 import { DrawerState } from '../lib/atoms';
 import AboutUs from '../components/AboutUs';
 import Contact from '../components/Contact';
+import Projects from '../components/projects';
 
 /**
  * @author Ntavigwa Bashombe
@@ -33,6 +34,7 @@ const Home: NextPage = (): JSX.Element => {
             <AboutUs />
             <Dream />
             <Work />
+            <Projects />
           </div>
           <Contact />
         </>
