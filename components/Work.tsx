@@ -5,11 +5,11 @@ const Work = (): JSX.Element => {
   return (
     <div
       ref={refs[3]}
-      className='w-full lg:w-1/2 text-white pt-16 md:pt-20 lg:pt-28 flex flex-col mx-auto space-y-10'
+      className='w-full lg:w-2/3 xl:w-1/2 text-white pt-16 md:pt-20 lg:pt-28 flex flex-col mx-auto space-y-10'
     >
       <div className='w-full grid grid-cols-1'>
         <div className='flex flex-col space-y-5 md:space-y-8'>
-          <p className='text-4xl md:text-5xl font-bold uppercase text-center'>
+          <p className='text-3xl md:text-5xl font-bold uppercase text-center'>
             Work Experience
           </p>
           <p className='text-base text-gray-400 text-justify'>

@@ -16,10 +16,12 @@ const TopBar = (): JSX.Element => {
   const About = useRef<HTMLDivElement>() as MutableRefObject<HTMLDivElement>;
   const Service = useRef<HTMLDivElement>() as MutableRefObject<HTMLDivElement>;
   const Works = useRef<HTMLDivElement>() as MutableRefObject<HTMLDivElement>;
+  const Projetcs = useRef<HTMLDivElement>() as MutableRefObject<HTMLDivElement>;
   refs[0] = Home;
   refs[1] = About;
   refs[2] = Service;
   refs[3] = Works;
+  refs[4] = Projetcs;
 
   const scrollDown = (ref: MutableRefObject<HTMLDivElement>) => {
     window.scrollTo({
@@ -36,7 +38,7 @@ const TopBar = (): JSX.Element => {
       <p className='font-bold text-4xl md:text-5xl cursor-pointer'>
         {/* Ntavigwa Bashombe */}
       </p>
-      <div className='hidden lg:flex space-x-4 justify-center items-center w-full'>
+      <div className='hidden md:flex space-x-4 justify-center items-center w-full'>
         {Menu.map((value, index) => (
           <a
             key={index}
@@ -46,7 +48,7 @@ const TopBar = (): JSX.Element => {
               setTopMenuState({ menu: value.title });
             }}
             className={
-              `py-2 cursor-pointer text-base md:text-lg animation classic ` +
+              `py-2 cursor-pointer text-base md:text-base animation classic ` +
               (menu === value.title
                 ? 'border-b-4 border-white text-white font-bold '
                 : 'border-none text-gray-400')
@@ -59,7 +61,7 @@ const TopBar = (): JSX.Element => {
       <div className='hidden lg:block bg-transparent text-black text-base font-bold cursor-pointer animation classic infinite'>
         {/* <p>Contact Me</p> */}
       </div>
-      <div className='lg:hidden flex justify-end items-center'>
+      <div className='md:hidden flex justify-end items-center'>
         <CgMenuRight
           className='text-5xl md:text-5xl hover:text-gray-200'
           onClick={() => setDrawerState({ showDrawer: true })}

@@ -14,7 +14,7 @@ const Drawer = (): JSX.Element => {
   const router = useRouter();
 
   return (
-    <div className='w-full h-full bg-black z-[99] text-white max-h-screen absolute overflow-y-auto no-scrollbars px-10 md:px-16 py-10'>
+    <div className='w-full h-full bg-gray-900 z-[99] text-white max-h-screen absolute overflow-y-auto no-scrollbars px-10 md:px-16 py-10'>
       <div className='flex flex-col w-full h-full justify-start items-end'>
         <FaTimes
           className='text-4xl md:text-5xl cursor-pointer'
@@ -44,7 +44,7 @@ const Drawer = (): JSX.Element => {
           onClick={() => setDrawerState({ showDrawer: false })}
           className='block py-5 px-14 bg-white text-black text-lg font-bold cursor-pointer'
         >
-          <p>Contact Us</p>
+          <p>Contact Me</p>
         </div>
       </div>
     </div>

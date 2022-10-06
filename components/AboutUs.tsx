@@ -9,8 +9,10 @@ const AboutUs = (): JSX.Element => {
       ref={refs[1]}
       className='flex flex-col justify-start items-center space-y-10 pt-10 w-full'
     >
-      <div className='w-full md:w-1/2 flex flex-col text-white space-y-10 mt-10 md:mt-0'>
-        <p className='uppercase text-5xl font-bold text-center'>About Me</p>
+      <div className='w-full lg:w-2/3 xl:w-1/2 flex flex-col text-white space-y-5 md:space-y-10 mt-10 md:mt-0'>
+        <p className='uppercase text-3xl md:text-5xl font-bold text-center'>
+          About Me
+        </p>
         <p className='text-base text-white text-justify'>
           I am a Alumni at{' '}
           <b>Faculty of Science & Technology in Computer Science ( 3 Years )</b>{' '}
@@ -33,7 +35,7 @@ const AboutUs = (): JSX.Element => {
           href='https://iuea.ac.ug/Graduation/sitepad-data/uploads//2022/06/GradLists-2019.pdf'
           target='_blank'
           rel='noopener noreferrer'
-          className='text-white font-bold hover:underline hover:text-gray-400 animation classic text-base'
+          className='text-white font-bold hover:underline hover:text-gray-400 animation classic text-sm md:text-base'
         >
           Click here to verify
         </a>
