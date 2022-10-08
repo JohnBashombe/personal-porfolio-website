@@ -10,6 +10,7 @@ import { DrawerState } from '../lib/atoms';
 import AboutUs from '../components/AboutUs';
 import Contact from '../components/Contact';
 import Projects from '../components/projects';
+import Desktop from '../components/desktop/Desktop';
 
 /**
  * @author Ntavigwa Bashombe
@@ -23,23 +24,26 @@ import Projects from '../components/projects';
 const Home: NextPage = (): JSX.Element => {
   const { showDrawer } = useRecoilValue(DrawerState);
   return (
-    <div className='flex flex-col w-full h-full min-h-screen bg-gray-900 awesome text-white font-signika'>
-      {showDrawer ? (
-        <Drawer />
-      ) : (
-        <>
-          <TopBar />
-          <div className='flex flex-col w-full px-10 md:px-16 xl:px-28 pb-20'>
-            <Header />
-            <AboutUs />
-            <Dream />
-            <Work />
-            <Projects />
-          </div>
-          <Contact />
-        </>
-      )}
-    </div>
+    <>
+      <Desktop />
+      <div className='lg:hidden flex flex-col w-full h-full min-h-screen bg-black awesome text-white font-signika'>
+        {showDrawer ? (
+          <Drawer />
+        ) : (
+          <>
+            <TopBar />
+            <div className='flex flex-col w-full px-10 md:px-16 xl:px-28 pb-20'>
+              <Header />
+              <AboutUs />
+              <Dream />
+              <Work />
+              <Projects />
+            </div>
+            <Contact />
+          </>
+        )}
+      </div>
+    </>
   );
 };
 
