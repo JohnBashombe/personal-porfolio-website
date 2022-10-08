@@ -7,7 +7,7 @@ export const Menu: IMenu[] = [
     { title: 'About Me', href: "/#about" },
     { title: 'Skills', href: "/#skills"},
     { title: 'Experience', href: "/#experience" },
-    { title: 'Achievements', href: "/#achievements" },
+    { title: 'Projects', href: "/#projects" },
 ];
 
   export const refs: MutableRefObject<HTMLDivElement>[] = [];

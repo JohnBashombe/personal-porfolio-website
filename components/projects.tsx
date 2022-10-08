@@ -10,7 +10,7 @@ const Projects = (): JSX.Element => {
       <div className='w-full grid grid-cols-1'>
         <div className='flex flex-col space-y-5 md:space-y-8'>
           <p className='text-3xl md:text-5xl font-bold uppercase text-center'>
-            Some Latests Achievements
+            Few Projects Made
           </p>
           <p className='text-base text-gray-400 text-justify'>
             These are some of the projects I develop for some customers and

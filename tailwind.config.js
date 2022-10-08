@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       fontFamily: {
         signika: ['Signika Negative', 'sans-serif'],
+        gemunu: ['Gemunu Libre', 'sans-serif'],
       },
     },
   },

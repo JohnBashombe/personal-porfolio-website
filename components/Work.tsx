@@ -66,6 +66,7 @@ const Work = (): JSX.Element => {
           </p>
         </div>
       </div>
+
       <div className='w-full h-full bg-transparent cursor-pointer space-y-5 text-white border border-white p-5'>
         <p className='font-bold text-xl'>Jan 2020 - December 2021</p>
         <p className='text-base font-normal'>
